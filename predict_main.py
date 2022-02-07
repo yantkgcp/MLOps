@@ -45,7 +45,7 @@ def predict(event, context):
     pubsub_message = base64.b64decode(event['data']).decode('utf-8')
     print(pubsub_message)
     message_json = json.loads(pubsub_message)
-    message_dict = { "card_transactions_amount": float(message_json['tx_id']), 
+    message_dict = { "card_transactions_amount": float(message_json['card_transactions_amount']), 
                     "card_transactions_transaction_distance": float(message_json['card_transactions_transaction_distance']),
                     "card_transactions_transaction_hour_of_day": str(message_json['card_transactions_transaction_hour_of_day']), 
                     "category": str(message_json["category"])}
