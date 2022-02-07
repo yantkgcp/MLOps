@@ -1,0 +1,25 @@
+steps:
+# This step builds the container image.
+- name: 'gcr.io/cloud-builders/gsutil'
+  id: Upload
+  args:
+  - 'cp'
+  - 'pipeline.ipynb'
+  - 'gs://<bucket>'
+
+
+
+#- name: 'gcr.io/cloud-builders/gcloud'
+#  id: Schedule
+#  args:
+#  - 'functions'
+#  - 'call'
+#  - 'gcf-create-nb-schedule'
+#  - '--data'
+#  - '${_JSON}'
+
+
+#timeout: 600s  
+#options:
+#  pool:
+#    name: 'projects/<>/locations/us-central1/workerPools/vertex-pool'
