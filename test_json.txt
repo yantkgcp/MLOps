@@ -1,0 +1,13 @@
+## Fraud Tx
+
+{"tx_id": 1234567890, "category":"home",
+"card_transactions_transaction_distance":97912.875099977144,
+"card_transactions_amount":1234567890,
+"card_transactions_transaction_hour_of_day":"1.0"}
+
+## Geniune Tx
+
+{"tx_id": 56783429002, "category":"food_dining",
+"card_transactions_transaction_distance":77923.4740798893,
+"card_transactions_amount":30.59,
+"card_transactions_transaction_hour_of_day":"13.0"}
