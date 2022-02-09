@@ -1,0 +1,29 @@
+###  gcf-fraud-detection
+# Function dependencies, for example:
+# package>=version
+httplib2
+google-cloud
+google-cloud-aiplatform
+protobuf
+typing
+
+
+
+###  gcf-create-nb-schedule
+# Function dependencies, for example:
+# package>=version
+python-dateutil
+datetime
+google-cloud-notebooks
+
+
+### for variables using secret manager
+00 22 * * 6   ## no bracket and quote in secret manager
+CRON = os.environ.get('CRON', "30 23 * * 6")
+sch = {'cron_schedule': str(CRON), 'time_zone': 'Asia/Hong_Kong', 'execution_template': ExecutionTemplate}
+
+
+###  gcf-cloudbuild-notifier
+# Function dependencies, for example:
+# package>=version
+httplib2
