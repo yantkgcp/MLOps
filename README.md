@@ -1,5 +1,5 @@
 # MLOps on Google Cloud Vertex AI Platform
-## Dataset is at https://drive.google.com/corp/drive/folders/1GlHzn7g7S-eN9o8Uxu6fBteRcCC0sUoP
+## Dataset is [here](https://drive.google.com/file/d/1PkO8bDHlmrBTbZYFuTzKFrGIES6uBr3A/view?usp=sharing)
 
 
 ## Architecture Diagram
