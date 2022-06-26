@@ -1,8 +1,13 @@
 ## Fraud Tx
 
-{"tx_id": 1234567890, "category":"home",
+{"tx_id": 1234567890, "category":"shopping_net",
 "card_transactions_transaction_distance":97912.875099977144,
-"card_transactions_amount":99999,
+"card_transactions_amount":1405.79,
+"card_transactions_transaction_hour_of_day":"0.0"}
+
+{"tx_id": 1234567890, "category":"shopping_pos",
+"card_transactions_transaction_distance":97912.875099977144,
+"card_transactions_amount":1311.27,
 "card_transactions_transaction_hour_of_day":"1.0"}
 
 ## Geniune Tx
